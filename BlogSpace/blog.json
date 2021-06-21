@@ -1,0 +1,5 @@
+[
+    {"title": "A Short Lesson on APIs", "body": "An application programming interface is a connection between computers or between computer programs. It is a type of software interface, offering a service to other pieces of software."},
+    {"title": "What is a Frontend Developer", "body": "Front-end web development is the practice of converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data."},
+    {"title": "What is JSON", "body": "JavaScript Object Notation (JSON) is a standard text-based format for representing structured data based on JavaScript object syntax. It is commonly used for transmitting data in web applications (e.g., sending some data from the server to the client, so it can be displayed on a web page, or vice versa)"}
+]

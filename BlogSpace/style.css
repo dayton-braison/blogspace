@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  background: rgb(15, 0, 0);
+  background: radial-gradient(circle, rgb(34, 3, 3) 0%, rgba(0, 3, 0, 1) 100%);
+  color: #f8f9fa;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  padding: 8px;
+  height: 70px;
+  text-align: center;
+  font-family: "Big Shoulders Stencil Display", cursive;
+  font-size: 24px;
+  letter-spacing: 1px;
+  background-color: #d00000;
+  color: #f8f9fa;
+  z-index: 1;
+}
+
+nav > h1 {
+  margin: 0;
+}
+
+#blog-list {
+  padding: 20px;
+}
+
+hr {
+  background-color: #d00000;
+}
+
+form {
+  padding: 100px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: rgb(15, 0, 0);
+  background: radial-gradient(circle, rgb(34, 3, 3) 0%, rgba(0, 3, 0, 1) 100%);
+}
+
+label {
+  font-size: 20px;
+  color: #f8f9fa;
+  margin-bottom: 8px;
+}
+
+#post-title {
+  width: 405px;
+  max-width: 100%;
+  padding: 5px;
+  font-family: inherit;
+  font-size: 18px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  transform: scale(1);
+  transition: transform 250ms;
+}
+
+#post-title:focus,
+#post-body:focus {
+  transform: scale(1.05);
+}
+
+#post-body {
+  max-width: 100%;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  border: none;
+  transform: scale(1);
+  transition: transform 250ms;
+}
+
+button {
+  margin-bottom: 45px;
+  padding: 8px;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  width: 75%;
+  max-width: 405px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(to right, green, rgb(67, 201, 67));
+  color: #f8f9fa;
+  transform: scale(1);
+  transition: transform 250ms;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.06);
+}
+
+@media (max-width: 470px) {
+  span {
+    display: none;
+  }
+}
